@@ -1,0 +1,84 @@
+body {
+    background-repeat: no-repeat;
+}
+
+form .text-light {
+    border: solid 1px black;
+}
+
+.navbar-toggler {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.rounded-pill {
+    box-shadow: -5px 5px 2px black;
+}
+
+#groupofbtn {
+    width: max-content;
+    height: auto;
+    transform: skew(-10deg);
+    color: white;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+#groupofbtn:hover {
+    background: #00000a;
+    color: rgb(252, 15, 15);
+    height: 2rem;
+}
+
+#groupofbtn11 {
+    width: max-content;
+    height: auto;
+    transform: skew(-20deg);
+    background: #02020a;
+    color: white;
+}
+
+.card-img-overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (orientation:portrait) {
+    .card-img-overlay{
+        align-items: center;
+        justify-content: start;
+        display: flex;
+        padding: 10px;
+    }
+    
+}
+
+#imageone{
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+#cardfooter1{
+    background-color: rgba(11, 32, 34, 0.934);
+    color: white;
+}
+#cardgroup1{
+    background-color: transparent;
+    flex-wrap: wrap;
+}
+#cr4:hover{
+     box-shadow: #00000a 5px 5px 5px;
+}
+
+#cardbody{
+    background-color: rgba(11, 32, 34, 0.934);
+}
+#cardbody > div > i{
+    color: rgb(235, 214, 21);
+}
+

@@ -1,0 +1,98 @@
+ /* word memory sectoin */
+.main-contain{
+    padding: 10px;
+    display: none;
+   width: fit-content;
+    padding-top: 10%;
+    margin: 3rem;
+    border: 2px solid rgba(11, 32, 34, 0.934);
+    background-color: rgba(5, 2, 12, 0.34);
+    box-shadow: 10px 10px 20px black;
+    overflow: hidden;
+}
+
+@media screen and (max-width:566px) {
+    .main-contain{
+        width: 100%;
+        margin: 0;
+    }
+}
+@media screen and (max-width:1000px) and (min-width:570px) {
+    .main-contain{
+        width: 70%;
+        margin: 10%;
+    }
+}
+div .row > div{
+    width: 50%;
+}
+#header11{
+    padding-bottom: 5%;
+    font-weight: bolder;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#word1,#word2,#word3,#word4,#word5{
+    background-color: transparent;
+    text-align: center;
+    color: white ;
+}
+.overflow{
+    margin: 0;
+    background-color:transparent;
+    color: aliceblue;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+.wordcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scoregroup{
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+/* navbar style */
+#groupofbtn {
+    width: max-content;
+    height: auto;
+    transform: skew(-10deg);
+    color: white;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+#groupofbtn:hover {
+    background: #00000a;
+    color: rgb(252, 15, 15);
+    height: 2rem;
+}
+.navbar-toggler {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+#groupofbtn11 {
+    width: max-content;
+    height: auto;
+    transform: skew(-20deg);
+    background: #02020a;
+    color: white;
+}
+#words{
+    font-size: 3rem;
+}

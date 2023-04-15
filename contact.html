@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Contect</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <style>
+        /* navbar style */
+        #groupofbtn {
+            width: max-content;
+            height: auto;
+            transform: skew(-10deg);
+            color: white;
+            box-shadow: 5px 5px 5px black;
+
+        }
+
+        #groupofbtn11 {
+            width: max-content;
+            height: auto;
+            transform: skew(-20deg);
+            background: #02020a;
+            color: white;
+        }
+
+        #groupofbtn:hover {
+            background: #00000a;
+            color: rgb(252, 15, 15);
+            height: 2rem;
+        }
+
+        .navbar-toggler {
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+
+        main div .d-flex {
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding: 1rem;
+            font-family: cursive;
+        }
+
+        #conimg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff0ff;
+
+        }
+
+        .mt-5>input,textarea {
+            background-color: transparent;
+            border-radius: 10px 0 10px 0;
+            color: #ffffff;
+            width: 100%; padding: 5px;
+        }
+
+        .m-5>button {
+            background-color: rgba(209, 111, 200, 0.177);
+            border: 0;
+            border-radius: 3rem;
+            color: #fff0ff;
+        }
+    </style>
+</head>
+
+<body class="bg-dark">
+    <header>
+        <!-- place navbar here -->
+        <form class="p-1 d-flex justify-content-end">
+            <input class="text-light m-2" type="text" id="groupofbtn11" placeholder="Search">
+            <button class="btn btn-sm btn-outline-light m-2" type="submit" id="groupofbtn11" onclick="">Search</button>
+        </form>
+        <nav class="navbar navbar-expand-sm navbar-dark ">
+            <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId"> </button>
+            <div class="collapse navbar-collapse d-flex justify-content-between" id="collapsibleNavId">
+                <img src="logo22.png" class="rounded-pillnav-item mr-2" alt="logo" srcset="">
+                <div class="btn-group navbar-nav" role="group">
+                    <button type="button" class="btn nav-item" id="groupofbtn"><a href="index.html"
+                            style="text-decoration: none; color: white;">Home</a></button>
+                    <button type="button" class="btn nav-item" id="groupofbtn"><a href="about.html"
+                            style="text-decoration: none; color: white;">About</a></button>
+                    <button type="button" class="btn nav-item" id="groupofbtn"><a href="contact.html"
+                            style="text-decoration: none; color: white;">Contact</a></button>
+                    <button type="button" class="btn nav-item" id="groupofbtn"><a href="rulebook.html"
+                            style="text-decoration: none; color: white;">RuleBook</a></button>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main class="text-light">
+        <div class="container" style="border: white 1px solid;  width: 60%;">
+            <!-- grid system -->
+            <div class="row">
+                <div class="col-sm-6" id="conimg">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d237530.67508539793!2d70.367397!3d21.530552!3m2!1i1024!2i768!4f13.1!4m3!3e2!4m0!4m0!5e0!3m2!1sen!2sin!4v1677064596657!5m2!1sen!2sin" width="400" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-sm-6 p-2">
+                    <div class="d-flex justify-content-center">
+                        <h2>Contact Us</h2>
+                        <img src="contactus.png" alt="contact" width="200px" srcset="">
+                    </div>
+                    <div class="mt-5">
+                        <input type="text" name="" placeholder=" Enter Your Full Name" id="">
+                    </div>
+                    <div class="mt-5">
+                        <input type="text" name="" placeholder="Enter your Email" 
+                            id="">
+                    </div>
+                    <div class="mt-5">
+                          <textarea placeholder="Entre Your Message" name="" id="" rows="3"></textarea>
+                    </div>
+                    <div class="m-5">
+                        <button class="btn btn-lg btn-light" type="button">Send -></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- footer content -->
+
+    <footer class=" text-center text-white" style="background-color: rgba(0, 0, 0, 0.2);">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+        <div class="row d-flex justify-content-around">
+            <a href="index.html" class="col-3" style="text-decoration: none; color: #fff0ff; padding: 5px;">Home</a>
+            <a href="about.html"class="col-3" style="text-decoration: none; color: #fff0ff; padding: 5px;">About</a>
+            <a href="contact.html" class="col-3" style="text-decoration: none; color: #fff0ff; padding: 5px;">Contact</a>
+            <a href="rulebook.html" class="col-3" style="text-decoration: none; color: #fff0ff; padding: 5px;">RuleBook</a>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white text-decoration-none" href="index.html">WordMemory.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
